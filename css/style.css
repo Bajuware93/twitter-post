@@ -1,0 +1,112 @@
+html{
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#post {
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 0px;
+  padding: 20px 20px 11.6px 20px;
+}
+
+#header {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+#author-info {
+  margin-left: 15px;
+}
+
+#author-avatar-img {
+  border-radius: 50%;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+#author-name-ver {
+  display:  block;
+}
+
+#author-name {
+  font-weight: 700;
+}
+
+#verified-img {
+  max-width: 15px;
+  max-height: 15px;
+}
+
+#logo {
+  margin-left: auto;
+}
+
+#twitter-bird {
+  max-width: 15px;
+  max-height: 15px;
+}
+
+#post-info {
+  display: flex;
+  margin-top: 5px;
+}
+
+#likes-date {
+  margin-left: 5px;
+}
+
+#info {
+  margin-left: auto;
+}
+
+#info-img {
+  max-width: 15px;
+  max-height: 15px;
+}
+
+#talking-about {
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #e1e8ed;
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+}
+
+#arrow{
+  margin-left: auto;
+}
+
+.margin-left-auto {
+  margin-left: auto;
+}
+
+.smfont {
+  color: #697882;
+  font-size: 14px;
+}
+
+.smfont-blue {
+  color: #3b94d9;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 520px) {
+  #post {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 0px;
+    padding: 20px 20px 11.6px 20px;
+  }
+}
